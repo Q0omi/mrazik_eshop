@@ -1,0 +1,25 @@
+<section class="section m3-section" id="vizualizacia" aria-labelledby="m3-heading">
+  <div class="container">
+    <div class="section-heading m3-heading">
+      <div><p class="eyebrow">POZRITE SA BLIŽŠIE</p><h2 id="m3-heading">Priestor, ktorý<br>si môžete prezrieť.</h2></div>
+      <p>Otočte chladničku, otvorte dvere a nazrite dovnútra. Svoj budúci priestor na čerstvosť spoznáte z každého uhla.</p>
+    </div>
+    <div class="m3-studio" data-fridge-viewer>
+      <div class="m3-topline"><span class="m3-live"><i></i> INTERAKTÍVNE 3D</span><span id="m3-model-label">Kryštál 600</span></div>
+      <div class="m3-canvas-wrap" id="m3-canvas-wrap" tabindex="0" role="group" aria-label="3D model chladničky. Potiahnutím otáčajte. Šípkami otáčajte, plus a mínus približujte. Enter otvorí dvere, Escape obnoví pohľad." aria-describedby="m3-instructions">
+        <div class="m3-loading" id="m3-loading"><span></span>Pripravujeme váš pohľad do vnútra…</div>
+        <div class="m3-fallback" id="m3-fallback" hidden><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="13" y="5" width="22" height="38" rx="3"/><path d="M13 28h22M24 5v23M20 13v8M28 13v8M19 32h10"/></svg><strong>3D pohľad tu nie je dostupný.</strong><p>Váš prehliadač nepodporuje potrebné grafické zobrazenie. Produkt si môžete prezrieť v produktovej galérii.</p></div>
+      </div>
+      <div class="m3-float-label" aria-hidden="true"><span>VYTVORENÉ NA OBJAVOVANIE</span><strong>Každý detail.<br>Každý uhol.</strong></div>
+      <div class="m3-zoom" aria-label="Priblíženie 3D modelu"><button type="button" data-viewer-action="zoom-in" aria-label="Priblížiť">+</button><span></span><button type="button" data-viewer-action="zoom-out" aria-label="Oddialiť">−</button></div>
+      <div class="m3-controls" aria-label="Ovládanie chladničky">
+        <button type="button" class="m3-control m3-primary" data-viewer-action="doors" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3h16v18H4zM12 3v18M9 10v4M15 10v4"/></svg><span>Otvoriť dvere</span></button>
+        <button type="button" class="m3-control" data-viewer-action="drawer" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v7H4zM4 14h16v7H4zM9 17h6"/></svg><span>Vysunúť mrazničku</span></button>
+        <button type="button" class="m3-control" data-viewer-action="inside" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg><span>Pohľad dovnútra</span></button>
+        <button type="button" class="m3-control m3-reset" data-viewer-action="reset" aria-label="Obnoviť pôvodný pohľad"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10a8 8 0 1 1 1 8M4 4v6h6"/></svg><span>Obnoviť</span></button>
+      </div>
+      <div class="m3-bottomline"><p id="m3-instructions"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 12V5a2 2 0 0 1 4 0v6M11 9a2 2 0 0 1 4 0v3M15 10a2 2 0 0 1 4 0v6c0 3-3 5-6 5-2 0-4-1-5-3l-4-5a2 2 0 0 1 3-2l2 2"/></svg>Potiahnite na otočenie · priblížte kolieskom alebo dvoma prstami</p><span>Interiér a usporiadanie sú ilustračné.</span></div>
+      <span class="m3-sr-only" id="m3-status" role="status" aria-live="polite"></span>
+    </div>
+  </div>
+</section>

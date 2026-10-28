@@ -1,0 +1,7 @@
+MRÁZIK – ukážkový e-shop
+
+Živý web: https://mrazik-smart-chladnicka-281026.janhreha77.chatgpt.site
+
+Obsah ZIP môžete nahrať na bežný webový hosting. Pre plný 3D náhľad musí stránka bežať cez HTTP/HTTPS, pretože používa JavaScript moduly. Pri otvorení súboru index.html priamo z disku prehliadač nemusí 3D modul povoliť.
+
+Mini a Family (Large) sú ilustračné koncepty s ilustračnými cenami. Interiéry všetkých 3D modelov sú ilustračné. Košík a objednávka slúžia na ukážku bez prijímania skutočných platieb alebo objednávok.
